@@ -1,34 +1,69 @@
 import React, { Component } from "react";
+import Dropdown from "react-dropdown";
+import "react-dropdown/style.css";
+
+const options = ["Influencer", "Endorser"];
 
 class A_Page extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dropdownContentHover: false
+      selectedOption: null
     };
-    this.onHoverbtn = this.onHoverbtn.bind(this);
-    this.onOutbtn = this.onOutbtn.bind(this);
+    this._onSelect = this._onSelect.bind(this);
   }
 
-  onHoverbtn = () => {
-    console.log("success");
-    this.setState({ dropdownContentHover: true });
+  onClick = () => {
+    console.log("clicled");
   };
-  onOutbtn = () => {
-    this.setState({ dropdownContentHover: false });
+
+  _onSelect = option => {
+    if (option.value == "Influencer") {
+      console.log("go to Influencer");
+    } else if (option.value == "Endorser") {
+      console.log("go to Endorser");
+    }
   };
 
   render() {
-    const { selectedOption } = this.state;
+    const registerOption = "Register";
+    const loginOption = "Log In";
 
     return (
       <div style={{ backgroundColor: "white", height: "100%", width: "100%" }}>
-        
         <div style={{ position: "absolute", right: "0vw" }}>
           <img
             src={require("../assets/images/1x/back-home@1X.png")}
             style={{ height: "110vh", width: "80vw" }}
           />
+          <div
+            style={{
+              position: "absolute",
+              top: "0vh",
+              right: "13vw"
+            }}
+          >
+            <Dropdown
+              options={options}
+              onChange={this._onSelect}
+              value={registerOption}
+              placeholder="Register"
+            />
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "0vh",
+              right: "3vw"
+            }}
+          >
+            <Dropdown
+              options={options}
+              onChange={this._onSelect}
+              value={loginOption}
+              placeholder="Log In"
+            />
+          </div>
           <div
             style={{
               position: "absolute",
@@ -38,18 +73,19 @@ class A_Page extends Component {
               textAlign: "right"
             }}
           >
-            <h1 style={{ color: "white" }}>
+            <h1 style={{ color: "white", fontSize: "5vh" }}>
               TEMUKAN VENDOR KREATIF & INFLUENCERS UNTUK BISNISMU
             </h1>
           </div>
           <div
             style={{
               position: "absolute",
-              top: "50vh",
+              top: "52vh",
               right: "5vw"
             }}
           >
             <button
+              onClick={this.onClick}
               style={{
                 borderStyle: "solid",
                 borderColor: "white",
@@ -58,7 +94,7 @@ class A_Page extends Component {
                 color: "white"
               }}
             >
-              Daftar Sekarang!
+              <p style={{ fontSize: `${2 * 0.8}vh` }}>Daftar Sekarang!</p>
             </button>
           </div>
 
