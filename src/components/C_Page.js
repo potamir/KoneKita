@@ -66,7 +66,7 @@ class C_Page extends Component {
               <h3 style={{ textAlign: "center", fontSize: "3vh" }}>
                 IN-HOUSE PRODUCTION
               </h3>
-              <p style={{ textAlign: "center", fontSize: "2.5vh" }}>
+              <p style={{ textAlign: "center", fontSize: "2.3vh" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
@@ -93,7 +93,7 @@ class C_Page extends Component {
               <h3 style={{ textAlign: "center", fontSize: "3vh" }}>
                 ALGORITMA PENCARIAN TERKINI
               </h3>
-              <p style={{ textAlign: "center", fontSize: "2.5vh" }}>
+              <p style={{ textAlign: "center", fontSize: "2.3vh" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
@@ -120,7 +120,7 @@ class C_Page extends Component {
               <h3 style={{ textAlign: "center", fontSize: "3vh" }}>
                 REALTIME PERFORMANCE INDEX
               </h3>
-              <p style={{ textAlign: "center", fontSize: "2.5vh" }}>
+              <p style={{ textAlign: "center", fontSize: "2.3vh" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
