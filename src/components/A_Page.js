@@ -89,7 +89,7 @@ class A_Page extends Component {
               style={{
                 borderStyle: "solid",
                 borderColor: "white",
-                borderRadius: "5px",
+                borderRadius: "1vw",
                 backgroundColor: "transparent",
                 color: "white"
               }}

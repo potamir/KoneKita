@@ -8,7 +8,7 @@ class C_Page extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "white", height: "100%", width: "100%" }}>
-        <div style={{ position: "absolute" }}>
+        <div style={{ position: "absolute", width:"100vw", height:"100vh" }}>
           <div
             style={{
               display: "flex",

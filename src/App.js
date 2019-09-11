@@ -15,7 +15,6 @@ function App() {
         <C_Page />
         <D_Page />
         <E_Page />
-        <C_Page />
       </ReactPageScroller>
     </div>
   );
