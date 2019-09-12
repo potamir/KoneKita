@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
-
-const options = ["Influencer", "Endorser"];
+import styles from "../styles/A_Page.module.css";
 
 class A_Page extends Component {
   constructor(props) {
@@ -10,118 +8,73 @@ class A_Page extends Component {
     this.state = {
       selectedOption: null
     };
-    this._onSelect = this._onSelect.bind(this);
   }
 
   onClick = () => {
     console.log("clicled");
   };
 
-  _onSelect = option => {
-    if (option.value == "Influencer") {
-      console.log("go to Influencer");
-    } else if (option.value == "Endorser") {
-      console.log("go to Endorser");
-    }
-  };
-
   render() {
-    const registerOption = "Register";
-    const loginOption = "Log In";
-
     return (
-      <div style={{ backgroundColor: "white", height: "100%", width: "100%" }}>
-        <div style={{ position: "absolute", right: "0vw" }}>
+      <div className={styles.mainDiv}>
+        <div className={styles.innerDiv}>
           <img
             src={require("../assets/images/1x/back-home@1X.png")}
-            style={{ height: "110vh", width: "80vw" }}
+            className={styles.back_home_img}
           />
-          <div
-            style={{
-              position: "absolute",
-              top: "0vh",
-              right: "13vw"
-            }}
-          >
-            <Dropdown
-              options={options}
-              onChange={this._onSelect}
-              value={registerOption}
-              placeholder="Register"
-            />
+          <div className={styles.register_div}>
+            <div className={styles.dropdown}>
+              <button className={styles.dropbtn}>Register</button>
+              <div className={styles.dropdown_content}>
+                <a href="#">Influencer</a>
+                <a href="#">Endorser</a>
+              </div>
+            </div>
           </div>
-          <div
-            style={{
-              position: "absolute",
-              top: "0vh",
-              right: "3vw"
-            }}
-          >
-            <Dropdown
-              options={options}
-              onChange={this._onSelect}
-              value={loginOption}
-              placeholder="Log In"
-            />
+          <div className={styles.login_div}>
+            <div className={styles.dropdown}>
+              <button className={styles.dropbtn}>Log In</button>
+              <div className={styles.dropdown_content}>
+                <a href="#">Influencer</a>
+                <a href="#">Endorser</a>
+              </div>
+            </div>
           </div>
-          <div
-            style={{
-              position: "absolute",
-              top: "35vh",
-              right: "2vw",
-              width: "55vw",
-              textAlign: "right"
-            }}
-          >
-            <h1 style={{ color: "white", fontSize: "5vh" }}>
+          <div className={styles.title_div}>
+            <h1 className={styles.title_font}>
               TEMUKAN VENDOR KREATIF & INFLUENCERS UNTUK BISNISMU
             </h1>
           </div>
-          <div
-            style={{
-              position: "absolute",
-              top: "52vh",
-              right: "5vw"
-            }}
-          >
-            <button
-              onClick={this.onClick}
-              style={{
-                borderStyle: "solid",
-                borderColor: "white",
-                borderRadius: "1vw",
-                backgroundColor: "transparent",
-                color: "white"
-              }}
-            >
-              <p style={{ fontSize: `${2 * 0.8}vh` }}>Daftar Sekarang!</p>
+          <div className={styles.daftar_div}>
+            <button onClick={this.onClick} className={styles.daftar_btn}>
+              <p className={styles.daftar_font}>Daftar Sekarang!</p>
             </button>
           </div>
 
-          <div style={{ position: "absolute", bottom: "10vh", right: "0vw" }}>
+          <div className={styles.back_home_planet4_div}>
             <img
               src={require("../assets/images/1x/back-home-planet4@1X.png")}
-              style={{ height: "40vh", width: "40vh" }}
+              className={styles.back_home_planet4_img}
             />
           </div>
-          <div style={{ position: "absolute", top: "10vh", right: "20vw" }}>
+          <div className={styles.back_home_planet3_div}>
             <img
               src={require("../assets/images/1x/back-home-planet3@1X.png")}
-              style={{ height: "17vh", width: "25vh" }}
+              className={styles.back_home_planet3_img}
             />
           </div>
-          <div style={{ position: "absolute", top: "45vh", right: "40vw" }}>
+          <div className={styles.back_home_planet2_div}>
             <img
               src={require("../assets/images/1x/back-home-plane2@1X.png")}
-              style={{ height: "10vh", width: "10vh" }}
+              className={styles.back_home_planet2_img}
             />
           </div>
         </div>
-        <div style={{ position: "absolute", right: "60vw" }}>
-          <div style={{ position: "relative", top: "25vh" }}>
+        <div className={styles.back_home_astro_main_div}>
+          <div className={styles.back_home_astro_inner_div}>
             <img
               src={require("../assets/images/1x/astro_1@1X.png")}
-              style={{ height: "70vh", width: "70vh" }}
+              className={styles.back_home_astro_img}
             />
           </div>
         </div>

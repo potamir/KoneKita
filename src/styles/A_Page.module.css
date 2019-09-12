@@ -1,0 +1,136 @@
+.mainDiv {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.innerDiv {
+  position: absolute;
+  right: 0vw;
+}
+.back_home_img {
+  height: 110vh;
+  width: 80vw;
+}
+.register_div {
+  position: absolute;
+  top: 0vh;
+  right: 13vw;
+}
+.login_div {
+  position: absolute;
+  top: 0vh;
+  right: 3vw;
+}
+.title_div {
+  position: absolute;
+  top: 35vh;
+  right: 2vw;
+  width: 55vw;
+  text-align: right;
+}
+.title_font {
+  color: white;
+  font-size: 5vh;
+}
+.daftar_div {
+  position: absolute;
+  top: 52vh;
+  right: 5vw;
+}
+.daftar_btn {
+  border-style: solid;
+  border-color: white;
+  border-radius: 1vw;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.daftar_font {
+  font-size: 1.6vh;
+}
+.back_home_planet4_div {
+  position: absolute;
+  bottom: 10vh;
+  right: 0vw;
+}
+.back_home_planet4_img {
+  height: 40vh;
+  width: 40vh;
+}
+.back_home_planet3_div {
+  position: absolute;
+  top: 10vh;
+  right: 20vw;
+}
+.back_home_planet3_img {
+  height: 17vh;
+  width: 25vh;
+}
+.back_home_planet2_div {
+  position: absolute;
+  top: 45vh;
+  right: 40vw;
+}
+.back_home_planet2_img {
+  height: 10vh;
+  width: 10vh;
+}
+.back_home_astro_main_div {
+  position: absolute;
+  right: 60vw;
+}
+.back_home_astro_inner_div {
+  position: relative;
+  top: 25vh;
+}
+.back_home_astro_img {
+  height: 70vh;
+  width: 70vh;
+}
+
+.dropbtn {
+  background-color: #145477;
+  color: white;
+  padding: 2vh;
+  font-size: 3vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 1vh;
+  width: 9vw;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 9vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 1vh;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 2vh 3vh;
+  text-decoration: none;
+  display: block;
+  border-radius: 1vh;
+  text-align: center;
+}
+
+.dropdown_content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #25729b;
+}
