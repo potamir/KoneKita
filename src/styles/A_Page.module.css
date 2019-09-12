@@ -1,9 +1,9 @@
-.mainDiv {
+.main_div {
   background-color: white;
   width: 100%;
   height: 100%;
 }
-.innerDiv {
+.inner_div {
   position: absolute;
   right: 0vw;
 }
@@ -31,6 +31,7 @@
 .title_font {
   color: white;
   font-size: 5vh;
+  font-family: Lato-regular;
 }
 .daftar_div {
   position: absolute;
@@ -44,9 +45,15 @@
   background-color: transparent;
   color: white;
   cursor: pointer;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.daftar_btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .daftar_font {
   font-size: 1.6vh;
+  font-family: Roboto-bold;
 }
 .back_home_planet4_div {
   position: absolute;
@@ -97,6 +104,7 @@
   cursor: pointer;
   border-radius: 1vh;
   width: 9vw;
+  font-family: Roboto-regular;
 }
 
 .dropdown {
@@ -112,6 +120,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 1vh;
+  font-family: Roboto-regular;
 }
 
 .dropdown_content a {

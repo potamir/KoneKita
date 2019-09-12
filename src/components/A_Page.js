@@ -16,8 +16,8 @@ class A_Page extends Component {
 
   render() {
     return (
-      <div className={styles.mainDiv}>
-        <div className={styles.innerDiv}>
+      <div className={styles.main_div}>
+        <div className={styles.inner_div}>
           <img
             src={require("../assets/images/1x/back-home@1X.png")}
             className={styles.back_home_img}

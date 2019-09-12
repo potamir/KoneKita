@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from "../styles/B_Page.module.css";
 
 class B_Page extends Component {
   constructor(props) {
@@ -7,42 +8,24 @@ class B_Page extends Component {
   }
   render() {
     return (
-      <div style={{ backgroundColor: "white", height: "100%", width: "100%" }}>
-        <div style={{ position: "absolute", left: "0vw" }}>
-          <div style={{ position: "absolute", top: "10vh", left: "-2vw" }}>
+      <div className={styles.main_div}>
+        <div className={styles.inner_div}>
+          <div className={styles.back_who_div}>
             <img
               src={require("../assets/images/1x/back-who@1X.png")}
-              style={{ height: "150vh", width: "50vh" }}
+              className={styles.back_who_img}
             />
           </div>
-          <div style={{ position: "absolute", top: "45vh", left: "-2vw" }}>
+          <div className={styles.back_who_planet1_div}>
             <img
               src={require("../assets/images/1x/back-who-planet1@1X.png")}
-              style={{ height: "20vh", width: "20vh" }}
+              className={styles.back_who_planet1_img}
             />
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              position: "relative",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "100vh",
-              width: "100vw"
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                width: "60%"
-              }}
-            >
-              <h1 style={{ fontSize: "5vh" }}>Siapa Kami</h1>
-              <p style={{ fontSize: "2vh" }}>
+          <div className={styles.text_main_div}>
+            <div className={styles.siapa_main_div}>
+              <h1 className={styles.siapa_title}>Siapa Kami</h1>
+              <p className={styles.siapa_content}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
@@ -55,17 +38,9 @@ class B_Page extends Component {
                 luctus, et vestibulum lorem convallis.
               </p>
             </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                width: "60%"
-              }}
-            >
-              <h1 style={{ fontSize: "5vh" }}>Siapa KoneKita</h1>
-              <p style={{ fontSize: "2vh" }}>
+            <div className={styles.siapa_main_div}>
+              <h1 className={styles.siapa_title}>Siapa KoneKita</h1>
+              <p className={styles.siapa_content}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
@@ -78,85 +53,41 @@ class B_Page extends Component {
                 luctus, et vestibulum lorem convallis.
               </p>
             </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-evenly",
-                alignItems: "center",
-                width: "60%",
-                flex: 1
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center"
-                }}
-              >
+            <div className={styles.five_points_main_div}>
+              <div className={styles.five_points_inner_div}>
                 <img
                   src={require("../assets/images/1x/icon-influencer@1X.png")}
-                  style={{ height: "10vh", width: "10vh" }}
+                  className={styles.five_points_img}
                 />
-                <h3 style={{ fontSize: "3vh" }}>Influencer</h3>
+                <h3 className={styles.five_points_font}>Influencer</h3>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center"
-                }}
-              >
+              <div className={styles.five_points_inner_div}>
                 <img
                   src={require("../assets/images/1x/icon=strategy@1X.png")}
-                  style={{ height: "10vh", width: "10vh" }}
+                  className={styles.five_points_img}
                 />
-                <h3 style={{ fontSize: "3vh" }}>Strategy</h3>
+                <h3 className={styles.five_points_font}>Strategy</h3>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center"
-                }}
-              >
+              <div className={styles.five_points_inner_div}>
                 <img
                   src={require("../assets/images/1x/icon-creator@1X.png")}
-                  style={{ height: "10vh", width: "10vh" }}
+                  className={styles.five_points_img}
                 />
-                <h3 style={{ fontSize: "3vh" }}>Creator</h3>
+                <h3 className={styles.five_points_font}>Creator</h3>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center"
-                }}
-              >
+              <div className={styles.five_points_inner_div}>
                 <img
                   src={require("../assets/images/1x/icon-sponsor@1X.png")}
-                  style={{ height: "10vh", width: "10vh" }}
+                  className={styles.five_points_img}
                 />
-                <h3 style={{ fontSize: "3vh" }}>Sponsor</h3>
+                <h3 className={styles.five_points_font}>Sponsor</h3>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center"
-                }}
-              >
+              <div className={styles.five_points_inner_div}>
                 <img
                   src={require("../assets/images/1x/icon-agency@1X.png")}
-                  style={{ height: "10vh", width: "10vh" }}
+                  className={styles.five_points_img}
                 />
-                <h3 style={{ fontSize: "3vh" }}>Agent</h3>
+                <h3 className={styles.five_points_font}>Agent</h3>
               </div>
             </div>
           </div>

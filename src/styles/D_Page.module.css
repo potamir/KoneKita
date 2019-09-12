@@ -1,0 +1,112 @@
+.main_div {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.inner_div {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.text_main_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.text_title {
+  font-size: 5vh;
+  text-align: center;
+  color: #97297f;
+  font-family: Lato-bold;
+}
+.back_pekarya_div {
+  position: absolute;
+  top: 15vh;
+  left: 0vw;
+}
+.back_pekarya_img {
+  height: 80vh;
+  width: 30vw;
+}
+.back_agency_div {
+  position: absolute;
+  top: 55vh;
+  left: 71vw;
+}
+.back_agency_img {
+  height: 95vh;
+  width: 30vw;
+}
+.back_pekarya_planet_div {
+  position: absolute;
+  top: 40vh;
+  left: 5vw;
+}
+.back_pekarya_planet_img {
+  height: 151h;
+  width: 15vh;
+}
+.line_div {
+  position: absolute;
+  top: 0vh;
+  left: -1vw;
+}
+.line_img {
+  height: 200vh;
+  width: 100vw;
+}
+.three_points_main_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.first_point_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  width: 19vw;
+  position: absolute;
+  left: 18vw;
+  top: 11vh;
+}
+.second_point_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  width: 19vw;
+  position: absolute;
+  left: 42vw;
+  top: 18vh;
+}
+.third_point_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  width: 19vw;
+  position: absolute;
+  left: 66vw;
+  top: 25vh;
+}
+.three_points_image {
+  height: 8vw;
+  width: 8vw;
+}
+.three_points_title {
+  text-align: center;
+  font-size: 3vh;
+  color: #97297f;
+  font-family: Lato-bold;
+}
+.three_points_content {
+  text-align: center;
+  font-size: 2vh;
+  font-family: Roboto-regular;
+}

@@ -1,0 +1,122 @@
+.main_div {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.inner_div {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.text_main_div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.text_inner_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+}
+.text_title {
+  font-size: 5vh;
+  color: #97297f;
+  font-family: Lato-bold;
+}
+.text_content {
+  font-size: 2vh;
+  font-family: Roboto-regular;
+}
+.three_points_main_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.first_point_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  width: 19vw;
+  position: absolute;
+  left: 18vw;
+  top: 35vh;
+}
+.second_point_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  width: 19vw;
+  position: absolute;
+  left: 42vw;
+  top: 35vh;
+}
+.third_point_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  width: 19vw;
+  position: absolute;
+  left: 66vw;
+  top: 35vh;
+}
+.three_points_image {
+  height: 10vw;
+  width: 10vw;
+}
+.three_points_title {
+  text-align: center;
+  font-size: 3vh;
+  color: #97297f;
+  font-family: Lato-bold;
+}
+.three_points_content {
+  text-align: center;
+  font-size: 2.3vh;
+  font-family: Roboto-regular;
+}
+.back_why_planet1_div {
+  position: absolute;
+  top: -5vh;
+  left: 10vw;
+}
+.back_why_planet1_img {
+  height: 130vh;
+  width: 90vw;
+}
+.back_why_planet2_div {
+  position: absolute;
+  top: 10vh;
+  right: 0vw;
+}
+.back_why_planet2_img {
+  height: 20vh;
+  width: 20vh;
+}
+.back_why_planet3_div {
+  position: absolute;
+  top: 5vh;
+  left: 10vw;
+}
+.back_why_planet3_img {
+  height: 10vh;
+  width: 15vh;
+}
+.back_why_planet4_div {
+  position: absolute;
+  top: 60vh;
+  right: -7vw;
+}
+.back_why_planet4_img {
+  height: 30vh;
+  width: 30vh;
+}

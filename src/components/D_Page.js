@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from "../styles/D_Page.module.css";
 
 class D_Page extends Component {
   constructor(props) {
@@ -7,125 +8,73 @@ class D_Page extends Component {
   }
   render() {
     return (
-      <div style={{ backgroundColor: "white", height: "100%", width: "100%" }}>
-        <div style={{ position: "absolute", width:"100vw", height:"100vh" }}>
-          <div
-            style={{
-              display:"flex",
-              flexDirection:"row",
-              justifyContent:"center",
-              alignItems:"center"
-            }}
-          >
-              <h1 style={{ fontSize: "5vh", textAlign: "center" }}>
-                Kenapa Kami Berbeda
-              </h1>
+      <div className={styles.main_div}>
+        <div className={styles.inner_div}>
+          <div className={styles.text_main_div}>
+            <h1 className={styles.text_title}>Kenapa Kami Berbeda</h1>
           </div>
-          <div style={{ position: "absolute", top: "15vh", left: "0vw" }}>
+          <div className={styles.back_pekarya_div}>
             <img
               src={require("../assets/images/1x/back-pekarya@1X.png")}
-              style={{ height: "80vh", width: "30vw" }}
+              className={styles.back_pekarya_img}
             />
           </div>
-          <div style={{ position: "absolute", top: "55vh", left: "71vw" }}>
+          <div className={styles.back_agency_div}>
             <img
               src={require("../assets/images/1x/back-agency@1X.png")}
-              style={{ height: "95vh", width: "30vw" }}
+              className={styles.back_agency_img}
             />
           </div>
-          <div style={{ position: "absolute", top: "40vh", left: "5vw" }}>
+          <div className={styles.back_pekarya_planet_div}>
             <img
               src={require("../assets/images/1x/back-pekarya-planet1@1X.png")}
-              style={{ height: "151h", width: "15vh" }}
+              className={styles.back_pekarya_planet_img}
             />
           </div>
-          <div style={{ position: "absolute", top: "0vh", left: "-1vw" }}>
+          <div className={styles.line_div}>
             <img
               src={require("../assets/images/1x/back-pekarya-line@1X.png")}
-              style={{ height: "200vh", width: "100vw" }}
+              className={styles.line_img}
             />
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-              width: "100%"
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                zIndex: 5,
-                width: "19vw",
-                position: "absolute",
-                left: "18vw",
-                top: "11vh"
-              }}
-            >
+          <div className={styles.three_points_main_div}>
+            <div className={styles.first_point_main_div}>
               <img
                 src={require("../assets/images/1x/icon-kurasi@1X.png")}
-                style={{ height: "8vw", width: "8vw" }}
+                className={styles.three_points_image}
               />
-              <h3 style={{ textAlign: "center", fontSize: "3vh" }}>KURASI</h3>
-              <p style={{ textAlign: "center", fontSize: "2vh" }}>
+              <h3 className={styles.three_points_title}>KURASI</h3>
+              <p className={styles.three_points_content}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
                 leo sed, rutrum dui.
               </p>
             </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                zIndex: 5,
-                width: "19vw",
-                position: "absolute",
-                left: "42vw",
-                top: "18vh"
-              }}
-            >
+            <div className={styles.second_point_main_div}>
               <img
                 src={require("../assets/images/1x/icon-kolab@1X.png")}
-                style={{ height: "8vw", width: "8vw" }}
+                className={styles.three_points_image}
               />
-              <h3 style={{ textAlign: "center", fontSize: "3vh" }}>
+              <h3 className={styles.three_points_title}>
                 KALABORASI
               </h3>
-              <p style={{ textAlign: "center", fontSize: "2vh" }}>
+              <p className={styles.three_points_content}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
                 leo sed, rutrum dui.
               </p>
             </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                zIndex: 5,
-                width: "19vw",
-                position: "absolute",
-                left: "66vw",
-                top: "25vh"
-              }}
-            >
+            <div className={styles.third_point_main_div}>
               <img
                 src={require("../assets/images/1x/icon-integrasi@1X.png")}
-                style={{ height: "8vw", width: "8vw" }}
+                className={styles.three_points_image}
               />
-              <h3 style={{ textAlign: "center", fontSize: "3vh" }}>
+              <h3 className={styles.three_points_title}>
                 INTEGRASI
               </h3>
-              <p style={{ textAlign: "center", fontSize: "2vh" }}>
+              <p className={styles.three_points_content}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 mauris quam, congue a aliquam fringilla, congue non odio. In
                 semper maximus pharetra. In scelerisque risus feugiat, auctor
