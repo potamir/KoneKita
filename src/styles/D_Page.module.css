@@ -6,7 +6,7 @@
 .inner_div {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 50vw;
 }
 .text_main_div {
   display: flex;
@@ -15,37 +15,37 @@
   align-items: center;
 }
 .text_title {
-  font-size: 5vh;
+  font-size: 2.5vw;
   text-align: center;
   color: #97297f;
   font-family: Lato-bold;
 }
 .back_pekarya_div {
   position: absolute;
-  top: 15vh;
+  top: 8vw;
   left: 0vw;
 }
 .back_pekarya_img {
-  height: 80vh;
+  height: 40vw;
   width: 30vw;
 }
 .back_agency_div {
   position: absolute;
-  top: 55vh;
+  top: 28vw;
   left: 71vw;
 }
 .back_agency_img {
-  height: 95vh;
+  height: 48vw;
   width: 30vw;
 }
 .back_pekarya_planet_div {
   position: absolute;
-  top: 40vh;
+  top: 20vw;
   left: 5vw;
 }
 .back_pekarya_planet_img {
-  height: 151h;
-  width: 15vh;
+  height: 8vw;
+  width: 8vw;
 }
 .line_div {
   position: absolute;
@@ -53,7 +53,7 @@
   left: -1vw;
 }
 .line_img {
-  height: 200vh;
+  height: 100vw;
   width: 100vw;
 }
 .three_points_main_div {
@@ -71,7 +71,7 @@
   width: 19vw;
   position: absolute;
   left: 18vw;
-  top: 11vh;
+  top: 6vw;
 }
 .second_point_main_div {
   display: flex;
@@ -82,7 +82,7 @@
   width: 19vw;
   position: absolute;
   left: 42vw;
-  top: 18vh;
+  top: 9vw;
 }
 .third_point_main_div {
   display: flex;
@@ -93,7 +93,7 @@
   width: 19vw;
   position: absolute;
   left: 66vw;
-  top: 25vh;
+  top: 13vw;
 }
 .three_points_image {
   height: 8vw;
@@ -101,12 +101,12 @@
 }
 .three_points_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 1.5vw;
   color: #97297f;
   font-family: Lato-bold;
 }
 .three_points_content {
   text-align: center;
-  font-size: 2vh;
+  font-size: 1vw;
   font-family: Roboto-regular;
 }

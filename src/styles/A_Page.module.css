@@ -8,34 +8,34 @@
   right: 0vw;
 }
 .back_home_img {
-  height: 110vh;
+  height: 56vw;
   width: 80vw;
 }
 .register_div {
   position: absolute;
-  top: 0vh;
+  top: 0vw;
   right: 13vw;
 }
 .login_div {
   position: absolute;
-  top: 0vh;
+  top: 0vw;
   right: 3vw;
 }
 .title_div {
   position: absolute;
-  top: 35vh;
+  top: 18vw;
   right: 2vw;
   width: 55vw;
   text-align: right;
 }
 .title_font {
   color: white;
-  font-size: 5vh;
+  font-size: 2.5vw;
   font-family: Lato-regular;
 }
 .daftar_div {
   position: absolute;
-  top: 52vh;
+  top: 26vw;
   right: 5vw;
 }
 .daftar_btn {
@@ -52,35 +52,35 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 .daftar_font {
-  font-size: 1.6vh;
+  font-size: 0.8vw;
   font-family: Roboto-bold;
 }
 .back_home_planet4_div {
   position: absolute;
-  bottom: 10vh;
+  bottom: 5vw;
   right: 0vw;
 }
 .back_home_planet4_img {
-  height: 40vh;
-  width: 40vh;
+  height: 20vw;
+  width: 20vw;
 }
 .back_home_planet3_div {
   position: absolute;
-  top: 10vh;
+  top: 5vw;
   right: 20vw;
 }
 .back_home_planet3_img {
-  height: 17vh;
-  width: 25vh;
+  height: 9vw;
+  width: 13vw;
 }
 .back_home_planet2_div {
   position: absolute;
-  top: 45vh;
+  top: 23vw;
   right: 40vw;
 }
 .back_home_planet2_img {
-  height: 10vh;
-  width: 10vh;
+  height: 5vw;
+  width: 5vw;
 }
 .back_home_astro_main_div {
   position: absolute;
@@ -88,21 +88,21 @@
 }
 .back_home_astro_inner_div {
   position: relative;
-  top: 25vh;
+  top: 13vw;
 }
 .back_home_astro_img {
-  height: 70vh;
-  width: 70vh;
+  height: 35vw;
+  width: 35vw;
 }
 
 .dropbtn {
   background-color: #145477;
   color: white;
-  padding: 2vh;
-  font-size: 3vh;
+  padding: 1vw;
+  font-size: 1.5vw;
   border: none;
   cursor: pointer;
-  border-radius: 1vh;
+  border-radius: 0.5vw;
   width: 9vw;
   font-family: Roboto-regular;
 }
@@ -119,17 +119,18 @@
   min-width: 9vw;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  border-radius: 1vh;
+  border-radius: 0.5vw;
   font-family: Roboto-regular;
 }
 
 .dropdown_content a {
   color: black;
-  padding: 2vh 3vh;
+  padding: 1vw 1.5vw;
   text-decoration: none;
   display: block;
-  border-radius: 1vh;
+  border-radius: 0.5vw;
   text-align: center;
+  font-size: 1vw;
 }
 
 .dropdown_content a:hover {

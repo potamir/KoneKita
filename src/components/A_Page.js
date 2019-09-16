@@ -26,8 +26,8 @@ class A_Page extends Component {
             <div className={styles.dropdown}>
               <button className={styles.dropbtn}>Register</button>
               <div className={styles.dropdown_content}>
-                <a href="#">Influencer</a>
-                <a href="#">Endorser</a>
+                <a href={"http://konekita.com/mvp/register/influencer"}>Influencer</a>
+                <a href={"http://konekita.com/mvp/register/endorser"}>Endorser</a>
               </div>
             </div>
           </div>
@@ -35,8 +35,8 @@ class A_Page extends Component {
             <div className={styles.dropdown}>
               <button className={styles.dropbtn}>Log In</button>
               <div className={styles.dropdown_content}>
-                <a href="#">Influencer</a>
-                <a href="#">Endorser</a>
+                <a href={"http://konekita.com/mvp/login/influencer"}>Influencer</a>
+                <a href={"http://konekita.com/mvp/login/endorser"}>Endorser</a>
               </div>
             </div>
           </div>

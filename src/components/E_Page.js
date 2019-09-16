@@ -41,7 +41,7 @@ class E_Page extends Component {
             <div className={styles.first_point_main_div}>
               <img
                 src={require("../assets/images/1x/icon-temukan@1X.png")}
-                className={styles.three_points_img}
+                className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>TEMUKAN</h3>
               <p className={styles.three_points_content}>
@@ -54,7 +54,7 @@ class E_Page extends Component {
             <div className={styles.second_point_main_div}>
               <img
                 src={require("../assets/images/1x/icon-ukur@1X.png")}
-                className={styles.three_points_img}
+                className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>UKUR</h3>
               <p className={styles.three_points_content}>
@@ -67,7 +67,7 @@ class E_Page extends Component {
             <div className={styles.third_point_main_div}>
               <img
                 src={require("../assets/images/1x/icon-bayar@1X.png")}
-                className={styles.three_points_img}
+                className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>BAYAR</h3>
               <p className={styles.three_points_content}>

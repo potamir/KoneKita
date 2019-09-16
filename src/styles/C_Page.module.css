@@ -6,7 +6,7 @@
 .inner_div {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 50vw;
 }
 .text_main_div {
   display: flex;
@@ -22,12 +22,12 @@
   width: 60%;
 }
 .text_title {
-  font-size: 5vh;
+  font-size: 2.5vw;
   color: #97297f;
   font-family: Lato-bold;
 }
 .text_content {
-  font-size: 2vh;
+  font-size: 1vw;
   font-family: Roboto-regular;
 }
 .three_points_main_div {
@@ -45,7 +45,7 @@
   width: 19vw;
   position: absolute;
   left: 18vw;
-  top: 35vh;
+  top: 18vw;
 }
 .second_point_main_div {
   display: flex;
@@ -56,7 +56,7 @@
   width: 19vw;
   position: absolute;
   left: 42vw;
-  top: 35vh;
+  top: 18vw;
 }
 .third_point_main_div {
   display: flex;
@@ -67,7 +67,7 @@
   width: 19vw;
   position: absolute;
   left: 66vw;
-  top: 35vh;
+  top: 18vw;
 }
 .three_points_image {
   height: 10vw;
@@ -75,48 +75,48 @@
 }
 .three_points_title {
   text-align: center;
-  font-size: 3vh;
+  font-size: 1.5vw;
   color: #97297f;
   font-family: Lato-bold;
 }
 .three_points_content {
   text-align: center;
-  font-size: 2.3vh;
+  font-size: 1.2vw;
   font-family: Roboto-regular;
 }
 .back_why_planet1_div {
   position: absolute;
-  top: -5vh;
+  top: -2.5vw;
   left: 10vw;
 }
 .back_why_planet1_img {
-  height: 130vh;
+  height: 65vw;
   width: 90vw;
 }
 .back_why_planet2_div {
   position: absolute;
-  top: 10vh;
+  top: 5vw;
   right: 0vw;
 }
 .back_why_planet2_img {
-  height: 20vh;
-  width: 20vh;
+  height: 10vw;
+  width: 10vw;
 }
 .back_why_planet3_div {
   position: absolute;
-  top: 5vh;
+  top: 2.5vw;
   left: 10vw;
 }
 .back_why_planet3_img {
-  height: 10vh;
-  width: 15vh;
+  height: 5vw;
+  width: 8vw;
 }
 .back_why_planet4_div {
   position: absolute;
-  top: 60vh;
+  top: 30vw;
   right: -7vw;
 }
 .back_why_planet4_img {
-  height: 30vh;
-  width: 30vh;
+  height: 15vw;
+  width: 15vw;
 }
