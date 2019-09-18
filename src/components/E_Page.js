@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "../styles/E_Page.module.css";
-
+import image from "./image/page_e_image.json"
 class E_Page extends Component {
   constructor(props) {
     super(props);
@@ -15,32 +15,32 @@ class E_Page extends Component {
           </div>
           <div className={styles.back_end_planet_div}>
             <img
-              src={require("../assets/images/1x/back-end-planet@1X.png")}
+              src={image.backend}
               className={styles.back_end_planet_img}
             />
           </div>
           <div className={styles.astro_div}>
             <img
-              src={require("../assets/images/1x/Astro_2@1X.png")}
+              src={image.astro}
               className={styles.astro_img}
             />
           </div>
           <div className={styles.back_agency_planet_div}>
             <img
-              src={require("../assets/images/1x/back-agency-planet1@1X.png")}
+              src={image.planet1}
               className={styles.back_agency_planet_img}
             />
           </div>
           <div className={styles.back_end_planet1_div}>
             <img
-              src={require("../assets/images/1x/back-end-planet1@1X.png")}
+              src={image.planet2}
               className={styles.back_end_planet1_img}
             />
           </div>
           <div className={styles.three_points_main_div}>
             <div className={styles.first_point_main_div}>
               <img
-                src={require("../assets/images/1x/icon-temukan@1X.png")}
+                src={image.temukan}
                 className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>TEMUKAN</h3>
@@ -53,7 +53,7 @@ class E_Page extends Component {
             </div>
             <div className={styles.second_point_main_div}>
               <img
-                src={require("../assets/images/1x/icon-ukur@1X.png")}
+                src={image.ukur}
                 className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>UKUR</h3>
@@ -66,7 +66,7 @@ class E_Page extends Component {
             </div>
             <div className={styles.third_point_main_div}>
               <img
-                src={require("../assets/images/1x/icon-bayar@1X.png")}
+                src={image.bayar}
                 className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>BAYAR</h3>

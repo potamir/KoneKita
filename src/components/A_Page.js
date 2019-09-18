@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "react-dropdown/style.css";
 import styles from "../styles/A_Page.module.css";
+import image from "./image/page_a_image.json"
 
 class A_Page extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedOption: null
+      selectedOption: null,
+      windows: true
     };
   }
 
@@ -19,7 +21,7 @@ class A_Page extends Component {
       <div className={styles.main_div}>
         <div className={styles.inner_div}>
           <img
-            src={require("../assets/images/1x/back-home@1X.png")}
+            src={image.backhome}
             className={styles.back_home_img}
           />
           <div className={styles.register_div}>
@@ -53,19 +55,19 @@ class A_Page extends Component {
 
           <div className={styles.back_home_planet4_div}>
             <img
-              src={require("../assets/images/1x/back-home-planet4@1X.png")}
+              src={image.planet4}
               className={styles.back_home_planet4_img}
             />
           </div>
           <div className={styles.back_home_planet3_div}>
             <img
-              src={require("../assets/images/1x/back-home-planet3@1X.png")}
+              src={image.planet3}
               className={styles.back_home_planet3_img}
             />
           </div>
           <div className={styles.back_home_planet2_div}>
             <img
-              src={require("../assets/images/1x/back-home-plane2@1X.png")}
+              src={image.planet2}
               className={styles.back_home_planet2_img}
             />
           </div>
@@ -73,7 +75,7 @@ class A_Page extends Component {
         <div className={styles.back_home_astro_main_div}>
           <div className={styles.back_home_astro_inner_div}>
             <img
-              src={require("../assets/images/1x/astro_1@1X.png")}
+              src={image.astro1}
               className={styles.back_home_astro_img}
             />
           </div>

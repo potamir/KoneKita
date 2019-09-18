@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "../styles/B_Page.module.css";
+import image from "./image/page_b_image.json"
 
 class B_Page extends Component {
   constructor(props) {
@@ -12,13 +13,13 @@ class B_Page extends Component {
         <div className={styles.inner_div}>
           <div className={styles.back_who_div}>
             <img
-              src={require("../assets/images/1x/back-who@1X.png")}
+              src={image.backwho}
               className={styles.back_who_img}
             />
           </div>
           <div className={styles.back_who_planet1_div}>
             <img
-              src={require("../assets/images/1x/back-who-planet1@1X.png")}
+              src={image.planet1}
               className={styles.back_who_planet1_img}
             />
           </div>
@@ -56,35 +57,35 @@ class B_Page extends Component {
             <div className={styles.five_points_main_div}>
               <div className={styles.five_points_inner_div}>
                 <img
-                  src={require("../assets/images/1x/icon-influencer@1X.png")}
+                  src={image.influencer}
                   className={styles.five_points_img}
                 />
                 <h3 className={styles.five_points_font}>Influencer</h3>
               </div>
               <div className={styles.five_points_inner_div}>
                 <img
-                  src={require("../assets/images/1x/icon=strategy@1X.png")}
+                  src={image.strategy}
                   className={styles.five_points_img}
                 />
                 <h3 className={styles.five_points_font}>Strategy</h3>
               </div>
               <div className={styles.five_points_inner_div}>
                 <img
-                  src={require("../assets/images/1x/icon-creator@1X.png")}
+                  src={image.creator}
                   className={styles.five_points_img}
                 />
                 <h3 className={styles.five_points_font}>Creator</h3>
               </div>
               <div className={styles.five_points_inner_div}>
                 <img
-                  src={require("../assets/images/1x/icon-sponsor@1X.png")}
+                  src={image.sponsor}
                   className={styles.five_points_img}
                 />
                 <h3 className={styles.five_points_font}>Sponsor</h3>
               </div>
               <div className={styles.five_points_inner_div}>
                 <img
-                  src={require("../assets/images/1x/icon-agency@1X.png")}
+                  src={image.agency}
                   className={styles.five_points_img}
                 />
                 <h3 className={styles.five_points_font}>Agent</h3>

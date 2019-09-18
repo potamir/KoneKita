@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "../styles/C_Page.module.css";
+import image from "./image/page_c_image.json"
 
 class C_Page extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class C_Page extends Component {
           <div className={styles.three_points_main_div}>
             <div className={styles.first_point_main_div}>
               <img
-                src={require("../assets/images/1x/icon-production@1X.png")}
+                src={image.production}
                 className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>IN-HOUSE PRODUCTION</h3>
@@ -40,7 +41,7 @@ class C_Page extends Component {
             </div>
             <div className={styles.second_point_main_div}>
               <img
-                src={require("../assets/images/1x/icon-alogaritma@1X.png")}
+                src={image.algoritma}
                 className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>
@@ -55,7 +56,7 @@ class C_Page extends Component {
             </div>
             <div className={styles.third_point_main_div}>
               <img
-                src={require("../assets/images/1x/icon-realtime@1X.png")}
+                src={image.realtime}
                 className={styles.three_points_image}
               />
               <h3 className={styles.three_points_title}>
@@ -71,25 +72,25 @@ class C_Page extends Component {
           </div>
           <div className={styles.back_why_planet1_div}>
             <img
-              src={require("../assets/images/1x/back-why-planet@1X.png")}
+              src={image.backwhy}
               className={styles.back_why_planet1_img}
             />
           </div>
           <div className={styles.back_why_planet2_div}>
             <img
-              src={require("../assets/images/1x/back-who-planet2@1X.png")}
+              src={image.planet3}
               className={styles.back_why_planet2_img}
             />
           </div>
           <div className={styles.back_why_planet3_div}>
             <img
-              src={require("../assets/images/1x/back-why-planet3@1X.png")}
+              src={image.planet1}
               className={styles.back_why_planet3_img}
             />
           </div>
           <div className={styles.back_why_planet4_div}>
             <img
-              src={require("../assets/images/1x/back-why-planet4@1X.png")}
+              src={image.planet2}
               className={styles.back_why_planet4_img}
             />
           </div>
