@@ -1,0 +1,73 @@
+.main_div {
+  background-color: white;
+  height: 150vh;
+  width: 100vw;
+  position: relative;
+}
+.inner_div {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.text_main_div {
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+.text_inner_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90vw;
+}
+.text_title {
+  font-size: 3.5vh;
+  color: black;
+  background-color: #97297f;
+  width: 100vw;
+  text-align: center;
+  font-family: Lato-bold;
+}
+.text_content {
+  font-size: 1.8vh;
+  font-family: Roboto-regular;
+}
+.three_points_main_div {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.three_points_inner_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  position: relative;
+  padding-top: 1vh;
+  border-style: solid;
+  border-color: #97297f;
+  border-radius: 1vh;
+}
+.three_points_image {
+  height: 10vh;
+  width: 10vh;
+}
+.three_points_title {
+  text-align: center;
+  font-size: 2.5vh;
+  color: #97297f;
+  font-family: Lato-bold;
+}
+.three_points_content {
+  text-align: center;
+  font-size: 1.8vh;
+  font-family: Roboto-regular;
+}

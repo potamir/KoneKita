@@ -1,0 +1,118 @@
+.main_div {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.inner_div {
+  position: relative;
+  right: 0vh;
+}
+.sign_button_div{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 1vw;
+}
+.register_div {
+  position: relative;
+  padding-right: 1vw;
+}
+.login_div {
+  position: relative;
+  padding-right: 1vw;
+}
+.title_div {
+  display: flex;
+  position: relative;
+  padding-top: 30vh;
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.title_font {
+  color: #97297f;
+  font-size: 5vh;
+  font-family: Lato-regular;
+}
+.daftar_div {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.daftar_btn {
+  border-style: solid;
+  border-color: #97297f;
+  border-radius: 1vh;
+  background-color: transparent;
+  color: #97297f;
+  cursor: pointer;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+.daftar_btn_a{
+  text-decoration: none;
+  color: #97297f;
+}
+.daftar_font {
+  font-size: 2vh;
+  font-family: Roboto-bold;
+}
+
+.dropbtn {
+  background-color: #97297f;
+  color: white;
+  padding: 1vh;
+  font-size: 2.5vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5vh;
+  width: 15vh;
+  font-family: Roboto-regular;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 15vh;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0.5vh;
+  font-family: Roboto-regular;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 1vh 1.5vh;
+  text-decoration: none;
+  display: block;
+  border-radius: 0.5vh;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.dropdown_content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #b65ea3;
+}
+.daftar_btn:hover {
+  background-color: #d39ec7;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from "../styles/C_Page.module.css";
+import styles from "../../styles/landscape/C_Page.module.css";
 import image from "./image/page_c_image.json"
 
 class C_Page extends Component {
